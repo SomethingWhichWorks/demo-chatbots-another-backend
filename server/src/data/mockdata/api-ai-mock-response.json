@@ -1,0 +1,75 @@
+{
+    "id": "404c9313-9d2b-4bf4-a62a-a8163953bd64",
+    "timestamp": "2017-07-13T08:33:09.113Z",
+    "lang": "en",
+    "result": {
+        "source": "agent",
+        "resolvedQuery": "do we have any branches in Pune ?",
+        "action": "command.branch.faq",
+        "actionIncomplete": true,
+        "parameters": {
+            "address": "we have any branches",
+            "geo-city": "Pune",
+            "geo-country": ""
+        },
+        "contexts": [
+            {
+                "name": "e78c6a92-b124-4f9c-910c-7d741688ab3b_id_dialog_context",
+                "parameters": {
+                    "geo-country.original": "",
+                    "address": "we have any branches",
+                    "geo-city": "Pune",
+                    "geo-city.original": "do we have any branches in Pune ?",
+                    "address.original": "do we have any branches in Pune ?",
+                    "geo-country": ""
+                },
+                "lifespan": 2
+            },
+            {
+                "name": "branch-faqs_dialog_params_geo-country",
+                "parameters": {
+                    "geo-country.original": "",
+                    "address": "we have any branches",
+                    "geo-city": "Pune",
+                    "geo-city.original": "do we have any branches in Pune ?",
+                    "address.original": "do we have any branches in Pune ?",
+                    "geo-country": ""
+                },
+                "lifespan": 1
+            },
+            {
+                "name": "branch-faqs_dialog_context",
+                "parameters": {
+                    "geo-country.original": "",
+                    "address": "we have any branches",
+                    "geo-city": "Pune",
+                    "geo-city.original": "do we have any branches in Pune ?",
+                    "address.original": "do we have any branches in Pune ?",
+                    "geo-country": ""
+                },
+                "lifespan": 2
+            }
+        ],
+        "metadata": {
+            "intentId": "e78c6a92-b124-4f9c-910c-7d741688ab3b",
+            "webhookUsed": "false",
+            "webhookForSlotFillingUsed": "false",
+            "intentName": "Branch-FAQs"
+        },
+        "fulfillment": {
+            "speech": "Which country you are in ?",
+            "messages": [
+                {
+                    "type": 0,
+                    "speech": "Which country you are in ?"
+                }
+            ]
+        },
+        "score": 1
+    },
+    "status": {
+        "code": 200,
+        "errorType": "success"
+    },
+    "sessionId": "3c2b53a7-4137-4a30-8d85-6f298430eeb5"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "personal-assistant-chatbot-backend",
+  "version": "1.0.0",
+  "description": "personal assistant chatbot backend",
+  "main": "dist/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" ",
+    "start": "npm install && node server.js"
+  },
+  "keywords": [],
+  "author": "mahesh.kulkarni@tieto.com, sachin.kasar@tieto.com",
+  "license": "MIT",
+  "dependencies": {
+    "add-stream": "^1.0.0",
+    "apiai": "^4.0.3",
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "core-js": "^2.4.1",
+    "es6-promise": "3.0.2",
+    "es6-shim": "0.33.3",
+    "express": "4.13.3",
+    "gulp": "3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-tslint": "^6.1.2",
+    "jquery": "^3.1.1",
+    "json-server": "^0.11.2",
+    "lodash": "^4.16.4",
+    "moment": "^2.15.1",
+    "mongodb": "^2.2.12",
+    "multer": "^1.1.0",
+    "nodemon": "^1.11.0",
+    "reflect-metadata": "0.1.8",
+    "request": "^2.75.0",
+    "tslint": "^3.15.1"
+  },
+  "devDependencies": {
+    "concurrently": "^3.0.0",
+    "lite-server": "^2.2.2",
+    "typescript": "^2.0.3",
+    "typings": "^1.4.0",
+    "del": "2.2.0",
+    "gulp": "3.9.0",
+    "gulp-sourcemaps": "1.6.0",
+    "gulp-typescript": "2.10.0",
+    "run-sequence": "1.1.5",
+    "gulp-concat": "2.6.0"
+  },
+  "engines": {
+    "node": "6.9.1"
+  }
+}

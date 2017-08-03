@@ -1,0 +1,34 @@
+{
+    "id": "51400bad-d87f-4997-bee7-45a39eaebff5",
+    "timestamp": "2017-07-12T09:23:57.519Z",
+    "lang": "en",
+    "result": {
+        "source": "agent",
+        "resolvedQuery": "hi",
+        "action": "input.welcome",
+        "actionIncomplete": false,
+        "parameters": {},
+        "contexts": [],
+        "metadata": {
+            "intentId": "c3b46b37-a40f-44d7-aaaf-da5c218594b1",
+            "webhookUsed": "false",
+            "webhookForSlotFillingUsed": "false",
+            "intentName": "Default Welcome Intent"
+        },
+        "fulfillment": {
+            "speech": "What can I do for you ?",
+            "messages": [
+                {
+                    "type": 0,
+                    "speech": "Hi!"
+                }
+            ]
+        },
+        "score": 1
+    },
+    "status": {
+        "code": 200,
+        "errorType": "success"
+    },
+    "sessionId": "3c2b53a7-4137-4a30-8d85-6f298430eeb5"
+}

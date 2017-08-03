@@ -1,0 +1,47 @@
+{
+    "working_Hours": [
+        {
+            "day": "Monday",
+            "openingHours": "9 AM to 6 PM"
+        },
+        {
+            "day": "Tuesday",
+            "openingHours": "9 AM to 6 PM"
+        },
+        {
+            "day": "Wednesday",
+            "openingHours": "9 AM to 6 PM"
+        },
+        {
+            "day": "Thursday",
+            "openingHours": "9 AM to 6 PM"
+        },
+        {
+            "day": "Friday",
+            "openingHours": "9 AM to 6 PM"
+        },
+        {
+            "day": "Saturday",
+            "openingHours": "9 AM to 1 PM"
+        },
+        {
+            "day": "Sunday",
+            "openingHours": "Bank is closed on Sunday"
+        }
+    ],
+    "bank_instruments": [
+        {
+            "instrument": "cheque",
+            "helpText": "For Weekdays, You can submit cheques till 3 pm to process on same day <br/> and for weekends Your cheque will be processed on following monday <br/>"
+        },
+        {
+            "instrument": "DD",
+            "helpText": "For Weekdays, You can submit cheques till 3 pm to process on same day <br/> and for weekends Your cheque will be processed on following monday <br/>"
+        },
+        {
+            "instrument": "IMPS",
+            "helpText": "Money transfer is immediate, should happen within hoyr"
+        }
+    ],
+    "general_response": "Please contact our customer care at 1111 000 1111 000 for more details"
+}

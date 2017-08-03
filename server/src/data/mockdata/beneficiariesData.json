@@ -1,0 +1,26 @@
+{
+	"beneficiaries": [
+		{
+			"user_id":"123",
+			"account_number": "NAID_FI_USD_FI4216055200123412",
+			"display_account_number": "FI42 1605 5200 1234 12",
+			"iban": "FI4216055200123412",
+			"beneficiary_overview": {
+				"title": "Mahesh Kulkarni",
+				"nickName": "mahesh-kulkarni-hdfc-account",
+				"beneficiaryName": "Mahesh Kulkarni"
+			}
+		},
+		{
+			"user_id":"456",
+			"account_number": "NAID_FI_USD_FI4216055200123415",
+			"display_account_number": "FI42 1605 5200 1234 15",
+			"iban": "FI4216055200123415",
+			"beneficiary_overview": {
+				"title": "Sachin Kasar",
+				"nickName": "sachin-kasar-kotak-account",
+				"beneficiaryName": "Sachin Kasar"
+			}
+		}
+	]
+}

@@ -1,0 +1,94 @@
+[
+    {
+		"user_id":"123",
+        "account_number": "NAID_FI_USD_FI4216055200123412",
+        "display_account_number": "FI42 1605 5200 1234 12",
+        "main_account_number": null,
+        "iban": "FI4216055200123412",
+        "account_status": "open",
+        "booked_balance": 11250,
+        "currency": "USD",
+        "Permissions": {
+            "can_view": true,
+            "can_view_transactions": true,
+            "can_transfer_from": true,
+            "can_transfer_to": true,
+            "can_deposit_to_account": true
+        },
+        "country_code": "FI",
+        "account_overview": {
+            "title": "My Savings Account",
+            "favorite": "false",
+            "nickName": "Max-Saving-Account"
+        }
+    },
+    {
+		"user_id":"456",
+        "account_number": "NAID_FI_USD_FI4216055200123413",
+        "display_account_number": "FI42 1605 5200 1234 13",
+        "main_account_number": null,
+        "iban": "FI4216055200123413",
+        "account_status": "open",
+        "booked_balance": 20250,
+        "currency": "USD",
+        "Permissions": {
+            "can_view": true,
+            "can_view_transactions": true,
+            "can_transfer_from": true,
+            "can_transfer_to": true,
+            "can_deposit_to_account": true
+        },
+        "country_code": "FI",
+        "account_overview": {
+            "title": "My Salary Account",
+            "favorite": "false",
+            "nickName": "Max-Salary-Account"
+        }
+    },
+	{
+		"user_id":"123",
+        "account_number": "NAID_FI_USD_FI4216055200123414",
+        "display_account_number": "FI42 1605 5200 1234 14",
+        "main_account_number": null,
+        "iban": "FI4216055200123414",
+        "account_status": "open",
+        "booked_balance": 30250,
+        "currency": "USD",
+        "Permissions": {
+            "can_view": true,
+            "can_view_transactions": true,
+            "can_transfer_from": true,
+            "can_transfer_to": true,
+            "can_deposit_to_account": true
+        },
+        "country_code": "FI",
+        "account_overview": {
+            "title": "My Salary Account",
+            "favorite": "true",
+            "nickName": "favorite account"
+        }
+    },
+     {
+		"user_id":"456",
+        "account_number": "NAID_FI_USD_FI4216055200123415",
+        "display_account_number": "FI42 1605 5200 1234 15",
+        "main_account_number": null,
+        "iban": "FI4216055200123413",
+        "account_status": "open",
+        "booked_balance": 0,
+        "currency": "USD",
+        "Permissions": {
+            "can_view": true,
+            "can_view_transactions": true,
+            "can_transfer_from": true,
+            "can_transfer_to": true,
+            "can_deposit_to_account": true
+        },
+        "country_code": "FI",
+        "account_overview": {
+            "title": "My Household Spendings Account",
+            "favorite": "false",
+            "nickName": "Max-Household-Account"
+        }
+    }
+]

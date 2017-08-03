@@ -1,0 +1,93 @@
+[
+
+	{
+		"id": "111111",
+		"user_id":"123",
+		"from": "123456789",
+		"to": "222333444",
+		"recipient_name": "7 Eleven CPH",
+		"recipient_address": [
+			"Address Line 1",
+			"Address Line 2"
+		],
+		"message": "Paid at 7 Eleven",
+		"amount": "300",
+		"entry_date": "17 July 2017",
+		"status": "Confirmed",
+		"type": "Third Party",
+		"due": "17 July 2017",
+		"currency": "DKK",
+		"recurring": {
+			"count": "0",
+			"interval": "daily",
+			"frequency": "0"
+		},
+		"cross_border": {
+			"sepa_reference": "string",
+			"bic": "string",
+			"branch_code": "000",
+			"bank_name": "Nordea Bank",
+			"bank_country": "Denmark"
+		}
+	},
+	{
+		"id": "222222",
+		"user_id":"123",
+		"from": "123456789",
+		"to": "11223344556677",
+		"recipient_name": "Mr. Jan",
+		"recipient_address": [
+			"Address Line 1",
+			"Address Line 2"
+		],
+		"message": "Transferring to my own account",
+		"amount": "4000",
+		"entry_date": "15 July 2017",
+		"status": "Confirmed",
+		"type": "Own Transfer",
+		"due": "15 July 2017",
+		"currency": "DKK",
+		"recurring": {
+			"count": "0",
+			"interval": "daily",
+			"frequency": "0 "
+		},
+		"cross_border": {
+			"sepa_reference": "string",
+			"bic": "string",
+			"branch_code": "000 ",
+			"bank_name": "Nordea Bank",
+			"bank_country": "Denmark"
+		}
+	},
+	{
+		"id": "333333",
+		"user_id":"456",
+		"from": "123456789",
+		"to": "444555666",
+		"recipient_name": "IKEA CPH",
+		"recipient_address": [
+			"Address Line 1",
+			"Address Line 2"
+		],
+		"message": "Paid at IKEA",
+		"amount": "300",
+		"entry_date": "10 July 2017",
+		"status": "Confirmed",
+		"type": "Own Transfer",
+		"due": "10 July 2017",
+		"currency": "DKK",
+		"recurring": {
+			"count": "0",
+			"interval": "daily",
+			"frequency": "0"
+		},
+		"cross_border": {
+			"sepa_reference": "string",
+			"bic": "string",
+			"branch_code": "000",
+			"bank_name": "Nordea Bank",
+			"bank_country": "Denmark"
+		}
+	}
+]

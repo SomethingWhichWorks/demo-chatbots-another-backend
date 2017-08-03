@@ -1,0 +1,149 @@
+{
+ "query": {
+  "count": 1,
+  "created": "2017-07-20T06:03:23Z",
+  "lang": "en-US",
+  "results": {
+   "channel": {
+    "units": {
+     "distance": "mi",
+     "pressure": "in",
+     "speed": "mph",
+     "temperature": "F"
+    },
+    "title": "Yahoo! Weather - Nome, AK, US",
+    "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/",
+    "description": "Yahoo! Weather for Nome, AK, US",
+    "language": "en-us",
+    "lastBuildDate": "Wed, 19 Jul 2017 10:03 PM AKDT",
+    "ttl": "60",
+    "location": {
+     "city": "Nome",
+     "country": "United States",
+     "region": " AK"
+    },
+    "wind": {
+     "chill": "63",
+     "direction": "338",
+     "speed": "14"
+    },
+    "atmosphere": {
+     "humidity": "71",
+     "pressure": "1008.0",
+     "rising": "0",
+     "visibility": "16.1"
+    },
+    "astronomy": {
+     "sunrise": "0:52 am",
+     "sunset": "5:22 am"
+    },
+    "image": {
+     "title": "Yahoo! Weather",
+     "width": "142",
+     "height": "18",
+     "link": "http://weather.yahoo.com",
+     "url": "http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"
+    },
+    "item": {
+     "title": "Conditions for Nome, AK, US at 09:00 PM AKDT",
+     "lat": "64.499474",
+     "long": "-165.405792",
+     "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/",
+     "pubDate": "Wed, 19 Jul 2017 09:00 PM AKDT",
+     "condition": {
+      "code": "29",
+      "date": "Wed, 19 Jul 2017 09:00 PM AKDT",
+      "temp": "63",
+      "text": "Partly Cloudy"
+     },
+     "forecast": [
+      {
+       "code": "30",
+       "date": "19 Jul 2017",
+       "day": "Wed",
+       "high": "65",
+       "low": "49",
+       "text": "Partly Cloudy"
+      },
+      {
+       "code": "30",
+       "date": "20 Jul 2017",
+       "day": "Thu",
+       "high": "65",
+       "low": "53",
+       "text": "Partly Cloudy"
+      },
+      {
+       "code": "34",
+       "date": "21 Jul 2017",
+       "day": "Fri",
+       "high": "60",
+       "low": "51",
+       "text": "Mostly Sunny"
+      },
+      {
+       "code": "26",
+       "date": "22 Jul 2017",
+       "day": "Sat",
+       "high": "54",
+       "low": "51",
+       "text": "Cloudy"
+      },
+      {
+       "code": "39",
+       "date": "23 Jul 2017",
+       "day": "Sun",
+       "high": "53",
+       "low": "52",
+       "text": "Scattered Showers"
+      },
+      {
+       "code": "26",
+       "date": "24 Jul 2017",
+       "day": "Mon",
+       "high": "59",
+       "low": "51",
+       "text": "Cloudy"
+      },
+      {
+       "code": "26",
+       "date": "25 Jul 2017",
+       "day": "Tue",
+       "high": "54",
+       "low": "52",
+       "text": "Cloudy"
+      },
+      {
+       "code": "39",
+       "date": "26 Jul 2017",
+       "day": "Wed",
+       "high": "54",
+       "low": "52",
+       "text": "Scattered Showers"
+      },
+      {
+       "code": "39",
+       "date": "27 Jul 2017",
+       "day": "Thu",
+       "high": "60",
+       "low": "52",
+       "text": "Scattered Showers"
+      },
+      {
+       "code": "30",
+       "date": "28 Jul 2017",
+       "day": "Fri",
+       "high": "61",
+       "low": "53",
+       "text": "Partly Cloudy"
+      }
+     ],
+     "description": "<![CDATA[<img src=\"http://l.yimg.com/a/i/us/we/52/29.gif\"/>\n<BR />\n<b>Current Conditions:</b>\n<BR />Partly Cloudy\n<BR />\n<BR />\n<b>Forecast:</b>\n<BR /> Wed - Partly Cloudy. High: 65Low: 49\n<BR /> Thu - Partly Cloudy. High: 65Low: 53\n<BR /> Fri - Mostly Sunny. High: 60Low: 51\n<BR /> Sat - Cloudy. High: 54Low: 51\n<BR /> Sun - Scattered Showers. High: 53Low: 52\n<BR />\n<BR />\n<a href=\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2460286/\">Full Forecast at Yahoo! Weather</a>\n<BR />\n<BR />\n(provided by <a href=\"http://www.weather.com\" >The Weather Channel</a>)\n<BR />\n]]>",
+     "guid": {
+      "isPermaLink": "false"
+     }
+    }
+   }
+  }
+ }
+}

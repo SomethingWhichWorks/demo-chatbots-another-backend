@@ -1,0 +1,743 @@
+{
+  "users": [
+    {
+      "user_id": "123",
+      "user_name": "Mahesh Kulkarni",
+      "nickname": "Mahesh",
+      "address": {
+        "line_1": "Line 1",
+        "line_2": "Line 2",
+        "city": "Pune"
+      }
+    },
+    {
+      "user_id": "456",
+      "user_name": "Sachin Kasar",
+      "nickname": "Sachin",
+      "address": {
+        "line_1": "Line 1",
+        "line_2": "Line 2",
+        "city": "Pune"
+      }
+    },
+    {
+      "user_id": "777",
+      "user_name": "Harshit Sharma",
+      "nickname": "Harshit",
+      "address": {
+        "line_1": "Line 1",
+        "line_2": "Line 2",
+        "city": "Pune"
+      }
+    },
+    {
+      "user_id": "888",
+      "user_name": "Arun Mathad",
+      "nickname": "Arun",
+      "address": {
+        "line_1": "Line 1",
+        "line_2": "Line 2",
+        "city": "Pune"
+      }
+    },
+    {
+      "user_id": "999",
+      "user_name": "Arpit Tandon",
+      "nickname": "Arpit",
+      "address": {
+        "line_1": "Line 1",
+        "line_2": "Line 2",
+        "city": "Pune"
+      }
+    }
+  ],
+  "beneficiaries": [
+    {
+      "user_id": "123",
+      "account_number": "NAID_FI_USD_FI4216055200123412",
+      "display_account_number": "FI42 1605 5200 1234 12",
+      "iban": "FI4216055200123412",
+      "beneficiary_overview": {
+        "title": "Mahesh Kulkarni",
+        "nickName": "mahesh-kulkarni-hdfc-account",
+        "beneficiaryName": "Mahesh Kulkarni"
+      }
+    },
+    {
+      "user_id": "456",
+      "account_number": "NAID_FI_USD_FI4216055200123415",
+      "display_account_number": "FI42 1605 5200 1234 15",
+      "iban": "FI4216055200123415",
+      "beneficiary_overview": {
+        "title": "Sachin Kasar",
+        "nickName": "sachin-kasar-kotak-account",
+        "beneficiaryName": "Sachin Kasar"
+      }
+    }
+  ],
+  "accounts": [
+    {
+      "id": "NAID_FI_USD_FI4216055200123412",
+      "user_id": "123",
+      "account_number": "NAID_FI_USD_FI4216055200123412",
+      "display_account_number": "FI42 1605 5200 1234 12",
+      "main_account_number": null,
+      "iban": "FI4216055200123412",
+      "account_status": "open",
+      "booked_balance": 11250,
+      "currency": "USD",
+      "Permissions": {
+        "can_view": true,
+        "can_view_transactions": true,
+        "can_transfer_from": true,
+        "can_transfer_to": true,
+        "can_deposit_to_account": true
+      },
+      "country_code": "FI",
+      "account_overview": {
+        "title": "My Savings Account",
+        "favorite": "false",
+        "nickName": "Max-Saving-Account"
+      }
+    },
+    {
+      "id": "NAID_FI_USD_FI4216055200123413",
+      "user_id": "456",
+      "account_number": "NAID_FI_USD_FI4216055200123413",
+      "display_account_number": "FI42 1605 5200 1234 13",
+      "main_account_number": null,
+      "iban": "FI4216055200123413",
+      "account_status": "open",
+      "booked_balance": 20250,
+      "currency": "USD",
+      "Permissions": {
+        "can_view": true,
+        "can_view_transactions": true,
+        "can_transfer_from": true,
+        "can_transfer_to": true,
+        "can_deposit_to_account": true
+      },
+      "country_code": "FI",
+      "account_overview": {
+        "title": "My Salary Account",
+        "favorite": "false",
+        "nickName": "Max-Salary-Account"
+      }
+    },
+    {
+      "id": "NAID_FI_USD_FI4216055200123414",
+      "user_id": "123",
+      "account_number": "NAID_FI_USD_FI4216055200123414",
+      "display_account_number": "FI42 1605 5200 1234 14",
+      "main_account_number": null,
+      "iban": "FI4216055200123414",
+      "account_status": "open",
+      "booked_balance": 30250,
+      "currency": "USD",
+      "Permissions": {
+        "can_view": true,
+        "can_view_transactions": true,
+        "can_transfer_from": true,
+        "can_transfer_to": true,
+        "can_deposit_to_account": true
+      },
+      "country_code": "FI",
+      "account_overview": {
+        "title": "My Salary Account",
+        "favorite": "true",
+        "nickName": "favorite account"
+      }
+    },
+    {
+      "id": "NAID_FI_USD_FI4216055200123415",
+      "user_id": "456",
+      "account_number": "NAID_FI_USD_FI4216055200123415",
+      "display_account_number": "FI42 1605 5200 1234 15",
+      "main_account_number": null,
+      "iban": "FI4216055200123413",
+      "account_status": "open",
+      "booked_balance": 0,
+      "currency": "USD",
+      "Permissions": {
+        "can_view": true,
+        "can_view_transactions": true,
+        "can_transfer_from": true,
+        "can_transfer_to": true,
+        "can_deposit_to_account": true
+      },
+      "country_code": "FI",
+      "account_overview": {
+        "title": "My Household Spendings Account",
+        "favorite": "false",
+        "nickName": "Max-Household-Account"
+      }
+    },
+    {
+      "id": "123456",
+      "user_id": "123",
+      "account_number": "123456",
+      "display_account_number": "FI42 1605 5200 1234 14",
+      "main_account_number": null,
+      "iban": "FI4216055200123414",
+      "account_status": "open",
+      "booked_balance": 1780,
+      "currency": "USD",
+      "Permissions": {
+        "can_view": true,
+        "can_view_transactions": true,
+        "can_transfer_from": true,
+        "can_transfer_to": true,
+        "can_deposit_to_account": true
+      },
+      "country_code": "FI",
+      "account_overview": {
+        "title": "My Salary Account",
+        "favorite": "true",
+        "nickName": "favorite account"
+      }
+    },
+    {
+      "id": "789012",
+      "user_id": "123",
+      "account_number": "789012",
+      "display_account_number": "FI42 1605 5200 1234 15",
+      "main_account_number": null,
+      "iban": "FI4216055200123413",
+      "account_status": "open",
+      "booked_balance": 5995,
+      "currency": "USD",
+      "Permissions": {
+        "can_view": true,
+        "can_view_transactions": true,
+        "can_transfer_from": true,
+        "can_transfer_to": true,
+        "can_deposit_to_account": true
+      },
+      "country_code": "FI",
+      "account_overview": {
+        "title": "My Household Spendings Account",
+        "favorite": "false",
+        "nickName": "favorite account"
+      }
+    }
+  ],
+  "branches": [
+    {
+      "city": "Pune",
+      "branches": [
+        {
+          "branchId": "11111",
+          "branchAddress": "EON Tech IT PARK, Kharadi, Pune",
+          "ifscCode": "TESTBANK111",
+          "bicCode": "INBBTESTBANK111"
+        },
+        {
+          "branchId": "22222",
+          "branchAddress": "Hadapsar",
+          "ifscCode": "TESTBANK222",
+          "bicCode": "INBBTESTBANK222"
+        },
+        {
+          "branchId": "33333",
+          "branchAddress": "KATRAJ",
+          "ifscCode": "TESTBANK333",
+          "bicCode": "INBBTESTBANK333"
+        }
+      ]
+    },
+    {
+      "city": "MUMBAI",
+      "branches": [
+        {
+          "branchId": "44444",
+          "branchAddress": "Colaba",
+          "ifscCode": "TESTBANK444",
+          "bicCode": "INBBTESTBANK444"
+        },
+        {
+          "branchId": "55555",
+          "branchAddress": "Malad",
+          "ifscCode": "TESTBANK555",
+          "bicCode": "INBBTESTBANK555"
+        },
+        {
+          "branchId": "66666",
+          "branchAddress": "Thane",
+          "ifscCode": "TESTBANK666",
+          "bicCode": "INBBTESTBANK666"
+        }
+      ]
+    }
+  ],
+  "bankOperations": [
+    {
+      "working_Hours": [
+        {
+          "day": "Monday",
+          "openingHours": "9 AM to 6 PM"
+        },
+        {
+          "day": "Tuesday",
+          "openingHours": "9 AM to 6 PM"
+        },
+        {
+          "day": "Wednesday",
+          "openingHours": "9 AM to 6 PM"
+        },
+        {
+          "day": "Thursday",
+          "openingHours": "9 AM to 6 PM"
+        },
+        {
+          "day": "Friday",
+          "openingHours": "9 AM to 6 PM"
+        },
+        {
+          "day": "Saturday",
+          "openingHours": "9 AM to 1 PM"
+        },
+        {
+          "day": "Sunday",
+          "openingHours": "Bank is closed on Sunday"
+        }
+      ],
+      "bank_instruments": [
+        {
+          "instrument": "cheque",
+          "helpText": "For Weekdays, You can submit cheques till 3 pm to process on same day <br/> and for weekends Your cheque will be processed on following monday <br/>"
+        },
+        {
+          "instrument": "DD",
+          "helpText": "For Weekdays, You can submit cheques till 3 pm to process on same day <br/> and for weekends Your cheque will be processed on following monday <br/>"
+        },
+        {
+          "instrument": "IMPS",
+          "helpText": "Money transfer is immediate, should happen within hoyr"
+        }
+      ],
+      "general_response": "Please contact our customer care at 1111 000 1111 000 for more details"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "111111",
+      "user_id": "123",
+      "from": "123456789",
+      "to": "222333444",
+      "recipient_name": "7 Eleven CPH",
+      "recipient_address": [
+        "Address Line 1",
+        "Address Line 2"
+      ],
+      "message": "Paid at 7 Eleven",
+      "amount": "300",
+      "entry_date": "17 July 2017",
+      "status": "Confirmed",
+      "type": "Third Party",
+      "due": "17 July 2017",
+      "currency": "DKK",
+      "recurring": {
+        "count": "0",
+        "interval": "daily",
+        "frequency": "0"
+      },
+      "cross_border": {
+        "sepa_reference": "string",
+        "bic": "string",
+        "branch_code": "000",
+        "bank_name": "Nordea Bank",
+        "bank_country": "Denmark"
+      }
+    },
+    {
+      "id": "222222",
+      "user_id": "123",
+      "from": "123456789",
+      "to": "11223344556677",
+      "recipient_name": "Mr. Jan",
+      "recipient_address": [
+        "Address Line 1",
+        "Address Line 2"
+      ],
+      "message": "Transferring to my own account",
+      "amount": "4000",
+      "entry_date": "15 July 2017",
+      "status": "Confirmed",
+      "type": "Own Transfer",
+      "due": "15 July 2017",
+      "currency": "DKK",
+      "recurring": {
+        "count": "0",
+        "interval": "daily",
+        "frequency": "0 "
+      },
+      "cross_border": {
+        "sepa_reference": "string",
+        "bic": "string",
+        "branch_code": "000 ",
+        "bank_name": "Nordea Bank",
+        "bank_country": "Denmark"
+      }
+    },
+    {
+      "id": "333333",
+      "user_id": "456",
+      "from": "123456789",
+      "to": "444555666",
+      "recipient_name": "IKEA CPH",
+      "recipient_address": [
+        "Address Line 1",
+        "Address Line 2"
+      ],
+      "message": "Paid at IKEA",
+      "amount": "300",
+      "entry_date": "10 July 2017",
+      "status": "Confirmed",
+      "type": "Own Transfer",
+      "due": "10 July 2017",
+      "currency": "DKK",
+      "recurring": {
+        "count": "0",
+        "interval": "daily",
+        "frequency": "0"
+      },
+      "cross_border": {
+        "sepa_reference": "string",
+        "bic": "string",
+        "branch_code": "000",
+        "bank_name": "Nordea Bank",
+        "bank_country": "Denmark"
+      }
+    },
+    {
+      "id": "999999",
+      "user_id": "123",
+      "from": "123456789",
+      "to": "222333444",
+      "recipient_name": "7 Eleven CPH",
+      "recipient_address": [
+        "Address Line 111",
+        "Address Line 222"
+      ],
+      "message": "Paid at PAYMENTS",
+      "amount": "600",
+      "entry_date": "30 July 2017",
+      "status": "Confirmed",
+      "type": "Third Party",
+      "due": "30 July 2017",
+      "currency": "DKK",
+      "recurring": {
+        "count": "0",
+        "interval": "daily",
+        "frequency": "0"
+      },
+      "cross_border": {
+        "sepa_reference": "string",
+        "bic": "string",
+        "branch_code": "000",
+        "bank_name": "Nordea Bank",
+        "bank_country": "Denmark"
+      }
+    },
+    {
+      "user_id": "123",
+      "from": "666",
+      "to": "789012",
+      "recipient_name": "789012",
+      "recipient_address": [
+        "Address Line 123",
+        "Address Line 345"
+      ],
+      "message": "Payment Creation",
+      "amount": "555",
+      "entry_date": "01 August 2017",
+      "status": "Confirmed",
+      "type": "Third Party",
+      "due": "01 August 2017",
+      "currency": "DKK",
+      "recurring": {
+        "count": "0",
+        "interval": "daily",
+        "frequency": "0"
+      },
+      "cross_border": {
+        "sepa_reference": "string",
+        "bic": "string",
+        "branch_code": "000",
+        "bank_name": "Nordea Bank",
+        "bank_country": "Denmark"
+      },
+      "id": "SymXXIxDZ"
+    },
+    {
+      "user_id": "123",
+      "from": "666",
+      "to": "789012",
+      "recipient_name": "789012",
+      "recipient_address": [
+        "Address Line 123",
+        "Address Line 345"
+      ],
+      "message": "Payment Creation",
+      "amount": "555",
+      "entry_date": "01 August 2017",
+      "status": "Confirmed",
+      "type": "Third Party",
+      "due": "01 August 2017",
+      "currency": "DKK",
+      "recurring": {
+        "count": "0",
+        "interval": "daily",
+        "frequency": "0"
+      },
+      "cross_border": {
+        "sepa_reference": "string",
+        "bic": "string",
+        "branch_code": "000",
+        "bank_name": "Nordea Bank",
+        "bank_country": "Denmark"
+      },
+      "id": "HJ-k4IgwW"
+    },
+    {
+      "user_id": "123",
+      "from": "666",
+      "to": "789012",
+      "recipient_name": "789012",
+      "recipient_address": [
+        "Address Line 123",
+        "Address Line 345"
+      ],
+      "message": "Payment Creation",
+      "amount": "555",
+      "entry_date": "01 August 2017",
+      "status": "Confirmed",
+      "type": "Third Party",
+      "due": "01 August 2017",
+      "currency": "DKK",
+      "recurring": {
+        "count": "0",
+        "interval": "daily",
+        "frequency": "0"
+      },
+      "cross_border": {
+        "sepa_reference": "string",
+        "bic": "string",
+        "branch_code": "000",
+        "bank_name": "Nordea Bank",
+        "bank_country": "Denmark"
+      },
+      "id": "SJgjVUlPW"
+    },
+    {
+      "user_id": "123",
+      "from": "666",
+      "to": "789012",
+      "recipient_name": "789012",
+      "recipient_address": [
+        "Address Line 123",
+        "Address Line 345"
+      ],
+      "message": "Payment Creation",
+      "amount": "555",
+      "entry_date": "01 August 2017",
+      "status": "Confirmed",
+      "type": "Third Party",
+      "due": "01 August 2017",
+      "currency": "DKK",
+      "recurring": {
+        "count": "0",
+        "interval": "daily",
+        "frequency": "0"
+      },
+      "cross_border": {
+        "sepa_reference": "string",
+        "bic": "string",
+        "branch_code": "000",
+        "bank_name": "Nordea Bank",
+        "bank_country": "Denmark"
+      },
+      "id": "HJKeBLlDb"
+    },
+    {
+      "user_id": "123",
+      "from": "666",
+      "to": "789012",
+      "recipient_name": "789012",
+      "recipient_address": [
+        "Address Line 123",
+        "Address Line 345"
+      ],
+      "message": "Payment Creation",
+      "amount": "555",
+      "entry_date": "01 August 2017",
+      "status": "Confirmed",
+      "type": "Third Party",
+      "due": "01 August 2017",
+      "currency": "DKK",
+      "recurring": {
+        "count": "0",
+        "interval": "daily",
+        "frequency": "0"
+      },
+      "cross_border": {
+        "sepa_reference": "string",
+        "bic": "string",
+        "branch_code": "000",
+        "bank_name": "Nordea Bank",
+        "bank_country": "Denmark"
+      },
+      "id": "SyUNBIlDW"
+    },
+    {
+      "user_id": "123",
+      "from": "123456",
+      "to": "789012",
+      "recipient_name": "789012",
+      "recipient_address": [
+        "Address Line 123",
+        "Address Line 345"
+      ],
+      "message": "Payment Creation",
+      "amount": "555",
+      "entry_date": "01 August 2017",
+      "status": "Confirmed",
+      "type": "Third Party",
+      "due": "01 August 2017",
+      "currency": "DKK",
+      "recurring": {
+        "count": "0",
+        "interval": "daily",
+        "frequency": "0"
+      },
+      "cross_border": {
+        "sepa_reference": "string",
+        "bic": "string",
+        "branch_code": "000",
+        "bank_name": "Nordea Bank",
+        "bank_country": "Denmark"
+      },
+      "id": "S1_LL8ePZ"
+    },
+    {
+      "user_id": "123",
+      "from": "123456",
+      "to": "789012",
+      "recipient_name": "789012",
+      "recipient_address": [
+        "Address Line 123",
+        "Address Line 345"
+      ],
+      "message": "Payment Creation",
+      "amount": "555",
+      "entry_date": "01 August 2017",
+      "status": "Confirmed",
+      "type": "Third Party",
+      "due": "01 August 2017",
+      "currency": "DKK",
+      "recurring": {
+        "count": "0",
+        "interval": "daily",
+        "frequency": "0"
+      },
+      "cross_border": {
+        "sepa_reference": "string",
+        "bic": "string",
+        "branch_code": "000",
+        "bank_name": "Nordea Bank",
+        "bank_country": "Denmark"
+      },
+      "id": "ByQfPLxvZ"
+    },
+    {
+      "user_id": "123",
+      "from": "123456",
+      "to": "78901112",
+      "recipient_name": "78901112",
+      "recipient_address": [
+        "Address Line 123",
+        "Address Line 345"
+      ],
+      "message": "Payment Creation",
+      "amount": "555",
+      "entry_date": "01 August 2017",
+      "status": "Confirmed",
+      "type": "Third Party",
+      "due": "01 August 2017",
+      "currency": "DKK",
+      "recurring": {
+        "count": "0",
+        "interval": "daily",
+        "frequency": "0"
+      },
+      "cross_border": {
+        "sepa_reference": "string",
+        "bic": "string",
+        "branch_code": "000",
+        "bank_name": "Nordea Bank",
+        "bank_country": "Denmark"
+      },
+      "id": "S1AMw8lPZ"
+    },
+    {
+      "user_id": "123",
+      "from": "666",
+      "to": "789012",
+      "recipient_name": "789012",
+      "recipient_address": [
+        "Address Line 123",
+        "Address Line 345"
+      ],
+      "message": "Payment Creation",
+      "amount": "555",
+      "entry_date": "01 August 2017",
+      "status": "Confirmed",
+      "type": "Third Party",
+      "due": "01 August 2017",
+      "currency": "DKK",
+      "recurring": {
+        "count": "0",
+        "interval": "daily",
+        "frequency": "0"
+      },
+      "cross_border": {
+        "sepa_reference": "string",
+        "bic": "string",
+        "branch_code": "000",
+        "bank_name": "Nordea Bank",
+        "bank_country": "Denmark"
+      },
+      "id": "SJI7PIgvW"
+    },
+    {
+      "user_id": "123",
+      "from": "123456",
+      "to": "789012",
+      "recipient_name": "789012",
+      "recipient_address": [
+        "Address Line 123",
+        "Address Line 345"
+      ],
+      "message": "Payment Creation",
+      "amount": "555",
+      "entry_date": "01 August 2017",
+      "status": "Confirmed",
+      "type": "Third Party",
+      "due": "01 August 2017",
+      "currency": "DKK",
+      "recurring": {
+        "count": "0",
+        "interval": "daily",
+        "frequency": "0"
+      },
+      "cross_border": {
+        "sepa_reference": "string",
+        "bic": "string",
+        "branch_code": "000",
+        "bank_name": "Nordea Bank",
+        "bank_country": "Denmark"
+      },
+      "id": "H1oXD8gD-"
+    }
+  ]
+}

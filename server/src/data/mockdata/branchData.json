@@ -1,0 +1,48 @@
+[
+    {
+        "city": "Pune",
+        "branches": [
+            {
+                "branchId": "11111",
+                "branchAddress": "EON Tech IT PARK, Kharadi, Pune",
+                "ifscCode": "TESTBANK111",
+                "bicCode": "INBBTESTBANK111"
+            },
+            {
+                "branchId": "22222",
+                "branchAddress": "Hadapsar",
+                "ifscCode": "TESTBANK222",
+                "bicCode": "INBBTESTBANK222"
+            },
+            {
+                "branchId": "33333",
+                "branchAddress": "KATRAJ",
+                "ifscCode": "TESTBANK333",
+                "bicCode": "INBBTESTBANK333"
+            }
+        ]
+    },
+    {
+        "city": "MUMBAI",
+        "branches": [
+            {
+                "branchId": "44444",
+                "branchAddress": "Colaba",
+                "ifscCode": "TESTBANK444",
+                "bicCode": "INBBTESTBANK444"
+            },
+            {
+                "branchId": "55555",
+                "branchAddress": "Malad",
+                "ifscCode": "TESTBANK555",
+                "bicCode": "INBBTESTBANK555"
+            },
+            {
+                "branchId": "66666",
+                "branchAddress": "Thane",
+                "ifscCode": "TESTBANK666",
+                "bicCode": "INBBTESTBANK666"
+            }
+        ]
+    }
+]
